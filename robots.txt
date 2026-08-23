@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://conchadepalacio.com/sitemap.xml
