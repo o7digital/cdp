@@ -9,7 +9,7 @@ window.SITE_CONFIG = Object.freeze({
     Object.freeze({
       id: "alena", number: "01", name: "Alena Studio", displayName: "ALENA STUDIO", category: "Bolsos & accesorios",
       description: "Bolsos contemporáneos concebidos como objetos de diseño: formas precisas, materiales seleccionados y una identidad profundamente personal.",
-      cta: "Descubrir las colecciones", url: "https://bags.conchadepalacio.com",
+      cta: "Descubrir las colecciones", url: "https://alenastudio.vercel.app/",
       image: "generated-assets/alena-studio-bag-editorial.webp", imageWidth: 1024, imageHeight: 1536,
       alt: "Bolso contemporáneo de cuero bordeaux de Alena Studio"
     }),
@@ -23,7 +23,7 @@ window.SITE_CONFIG = Object.freeze({
     Object.freeze({
       id: "interiores", number: "03", name: "Concha de Palacio Interiores", displayName: "CONCHA DE PALACIO\nINTERIORES", category: "Diseño de interiores & hospitality",
       description: "Espacios residenciales y de hospitalidad concebidos a través de la luz, el arte, la materia y la emoción.",
-      cta: "Descubrir el estudio", url: "https://disenointerior.conchadepalacio.com",
+      cta: "Descubrir el estudio", url: "https://conchadepalacio.vercel.app/",
       image: "generated-assets/concha-de-palacio-hero.webp", imageWidth: 1672, imageHeight: 941,
       alt: "Proyecto de diseño de interiores de Concha de Palacio"
     })
