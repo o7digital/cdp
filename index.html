@@ -2,15 +2,6 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QTFM7TGDX6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-QTFM7TGDX6');
-  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#efe9df">
   <meta name="description" content="Concha de Palacio brings fashion, jewelry and interior design together through one creative vision in San Diego, California.">
@@ -31,13 +22,45 @@
   <meta name="twitter:card" content="summary_large_image">
   <title>Concha de Palacio — Creative House in San Diego</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&amp;family=Italiana&amp;display=swap" rel="stylesheet">
+  <link rel="preload" href="/generated-assets/fonts/italiana-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/generated-assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/generated-assets/concha-de-palacio-hero.webp" as="image" type="image/webp" fetchpriority="high">
   <link rel="stylesheet" href="/styles.css">
-  <script src="/config.js" defer></script>
   <script src="/script.js" defer></script>
+  <script src="/analytics-consent.js" defer></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://www.conchadepalacio.com/#website",
+          "url": "https://www.conchadepalacio.com/",
+          "name": "Concha de Palacio",
+          "inLanguage": ["en-US", "es-US"]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.conchadepalacio.com/#organization",
+          "name": "Concha de Palacio",
+          "legalName": "LIC International Inc.",
+          "url": "https://www.conchadepalacio.com/",
+          "logo": "https://www.conchadepalacio.com/generated-assets/concha-de-palacio-logo-navy.png",
+          "image": "https://www.conchadepalacio.com/generated-assets/concha-de-palacio-hero.webp",
+          "description": "A San Diego creative house bringing together fashion, artisan jewelry and interior design.",
+          "email": "contact@conchadepalacio.com",
+          "telephone": "+1-619-707-1357",
+          "areaServed": {"@type": "City", "name": "San Diego, California"},
+          "sameAs": ["https://www.instagram.com/conchadepalacio/"],
+          "subOrganization": [
+            {"@type": "Organization", "name": "Alena Studio", "url": "https://alenastudio.vercel.app/"},
+            {"@type": "Organization", "name": "NODÉ", "url": "https://www.nodelifestyle.com/"},
+            {"@type": "Organization", "name": "Concha de Palacio Interiors", "url": "https://interiores.conchadepalacio.com/"}
+          ]
+        }
+      ]
+    }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -110,12 +133,28 @@
         <div><span class="section-number">/ 002 — UNIVERSES</span><h2 id="universes-title">Our universes</h2></div>
         <p>Three independent expressions, connected by a single creative direction and a radical attention to detail.</p>
       </div>
-      <div class="universe-grid" id="universeGrid"></div>
-      <noscript><p>Enable JavaScript to access links to our universes.</p></noscript>
+      <div class="universe-grid" id="universeGrid">
+        <a class="universe-card reveal" data-universe="alena" href="/designer-bags-san-diego/" aria-label="Discover Alena Studio designer bags in San Diego">
+          <img src="/generated-assets/alena-studio-bag-editorial.webp" srcset="/generated-assets/alena-studio-bag-editorial-480.webp 480w, /generated-assets/alena-studio-bag-editorial-768.webp 768w, /generated-assets/alena-studio-bag-editorial.webp 1024w" sizes="(max-width: 980px) calc(100vw - 44px), 39vw" width="1024" height="1536" loading="lazy" alt="Contemporary burgundy leather bag by Alena Studio">
+          <div class="universe-card__top"><span>01 / Bags &amp; accessories</span><span>Universe</span></div>
+          <div class="universe-card__body"><h3>ALENA STUDIO</h3><p>Contemporary designer bags conceived as design objects: precise forms, carefully selected materials and a personal identity.</p><p class="universe-card__location">San Diego, California</p><div class="universe-card__link"><span>Discover designer bags</span><b aria-hidden="true">↗</b></div></div>
+        </a>
+        <a class="universe-card reveal" data-universe="node" href="/artisan-jewelry-san-diego/" aria-label="Discover NODÉ artisan jewelry in San Diego">
+          <img src="/generated-assets/concha-jewelry-editorial.webp" srcset="/generated-assets/concha-jewelry-editorial-480.webp 480w, /generated-assets/concha-jewelry-editorial-768.webp 768w, /generated-assets/concha-jewelry-editorial.webp 1122w" sizes="(max-width: 980px) calc(100vw - 44px), 55vw" width="1122" height="1402" loading="lazy" alt="Handcrafted pearl necklace on burgundy silk">
+          <div class="universe-card__top"><span>02 / Artisan jewelry</span><span>Universe</span></div>
+          <div class="universe-card__body"><h3>NODÉ</h3><p>Handcrafted necklaces, pearls and artisan jewelry that celebrate beautiful imperfection and individual expression.</p><p class="universe-card__location">San Diego, California</p><div class="universe-card__link"><span>Discover artisan jewelry</span><b aria-hidden="true">↗</b></div></div>
+        </a>
+        <a class="universe-card reveal" data-universe="interiors" href="/interior-design-san-diego/" aria-label="Discover Concha de Palacio interior design in San Diego">
+          <img src="/generated-assets/concha-de-palacio-hero.webp" width="1672" height="941" loading="lazy" alt="Interior design project by Concha de Palacio">
+          <div class="universe-card__top"><span>03 / Interior design &amp; hospitality</span><span>Universe</span></div>
+          <div class="universe-card__body"><h3>CONCHA DE PALACIO
+INTERIORS</h3><p>Residential and hospitality interiors conceived through light, art, materials and emotion.</p><p class="universe-card__location">San Diego, California</p><div class="universe-card__link"><span>Discover interior design</span><b aria-hidden="true">↗</b></div></div>
+        </a>
+      </div>
     </section>
 
     <section class="philosophy" id="philosophy" aria-labelledby="philosophy-title">
-      <div class="philosophy__image"><img src="/generated-assets/concha-group-art-editorial.webp" width="1122" height="1402" loading="lazy" alt="Abstract composition in stone, black and burgundy tones"></div>
+      <div class="philosophy__image"><img src="/generated-assets/concha-group-art-editorial.webp" srcset="/generated-assets/concha-group-art-editorial-480.webp 480w, /generated-assets/concha-group-art-editorial-768.webp 768w, /generated-assets/concha-group-art-editorial.webp 1122w" sizes="(max-width: 980px) 100vw, 33vw" width="1122" height="1402" loading="lazy" alt="Abstract composition in stone, black and burgundy tones"></div>
       <div class="philosophy__copy reveal">
         <span class="eyebrow">/ 003 — PHILOSOPHY</span>
         <blockquote id="philosophy-title">“Beauty can be <em>worn</em>, touched and lived in.”</blockquote>
@@ -148,7 +187,11 @@
         <div class="contact__details"><a class="contact__email" href="mailto:contact@conchadepalacio.com">contact@conchadepalacio.com</a><a class="contact__phone" href="tel:+16197071357">+1 619 707 1357</a></div>
       </div>
     </div>
-    <div class="footer__universes" id="footerUniverses" aria-label="Links to our universes"></div>
+    <div class="footer__universes" id="footerUniverses" aria-label="Links to our universes">
+      <a class="footer__universe" href="/designer-bags-san-diego/"><span>01 · Alena Studio · San Diego, California</span><span aria-hidden="true">↗</span></a>
+      <a class="footer__universe" href="/artisan-jewelry-san-diego/"><span>02 · NODÉ · San Diego, California</span><span aria-hidden="true">↗</span></a>
+      <a class="footer__universe" href="/interior-design-san-diego/"><span>03 · Interiors · San Diego, California</span><span aria-hidden="true">↗</span></a>
+    </div>
     <div class="footer">
       <div class="footer__links">
         <a id="instagramLink" href="https://www.instagram.com/conchadepalacio/" target="_blank" rel="noopener noreferrer">Instagram</a>

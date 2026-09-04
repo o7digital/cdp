@@ -10,6 +10,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url><loc>https://www.conchadepalacio.com/designer-bags-san-diego/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.conchadepalacio.com/es/bolsos-diseno-san-diego/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.conchadepalacio.com/artisan-jewelry-san-diego/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.conchadepalacio.com/es/joyeria-artesanal-san-diego/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.conchadepalacio.com/interior-design-san-diego/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.conchadepalacio.com/es/diseno-interiores-san-diego/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url>
     <loc>https://www.conchadepalacio.com/legal-notice.html</loc>
     <changefreq>yearly</changefreq>

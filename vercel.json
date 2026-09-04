@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/es/aviso-legal.html",
+      "destination": "/aviso-legal.html",
+      "permanent": true
+    }
+  ]
+}
