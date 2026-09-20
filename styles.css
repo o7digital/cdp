@@ -164,6 +164,14 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .contact__aside p { margin: 0 0 30px; font-size: 13px; line-height: 1.8; color: rgba(255, 255, 255, .62); }
 .contact__details { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
 .contact__email, .contact__phone { display: inline-block; padding-bottom: 8px; border-bottom: 1px solid rgba(255, 255, 255, .65); font-size: 13px; }
+.contact__form { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 28px; max-width: 900px; margin-top: 78px; }
+.contact__form label { display: flex; flex-direction: column; gap: 10px; color: rgba(255, 255, 255, .62); font-size: 9px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; }
+.contact__form input, .contact__form textarea { width: 100%; padding: 13px 0; border: 0; border-bottom: 1px solid rgba(255, 255, 255, .35); border-radius: 0; outline: 0; resize: vertical; background: transparent; color: var(--paper-soft); font: 300 15px/1.5 var(--sans); }
+.contact__form input:focus, .contact__form textarea:focus { border-color: var(--paper-soft); }
+.contact__form-message { grid-column: 1 / -1; }
+.contact__form button { display: inline-flex; grid-column: 1 / -1; align-items: center; justify-content: space-between; width: max-content; min-width: 210px; padding: 15px 0 10px; border: 0; border-bottom: 1px solid rgba(255, 255, 255, .7); background: transparent; color: var(--paper-soft); cursor: pointer; font: 500 9px/1 var(--sans); letter-spacing: .2em; text-transform: uppercase; }
+.contact__form button span { margin-left: 30px; font-size: 18px; transition: transform .25s ease; }
+.contact__form button:hover span { transform: translate(4px, -3px); }
 .footer__universes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: clamp(90px, 12vw, 170px); border-top: 1px solid rgba(255, 255, 255, .18); }
 .footer__universe { display: flex; justify-content: space-between; gap: 18px; padding: 24px 0; border-bottom: 1px solid rgba(255, 255, 255, .18); font-size: 9px; font-weight: 500; letter-spacing: .15em; text-transform: uppercase; }
 .footer__universe span:last-child { font-size: 17px; }
@@ -227,6 +235,8 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .principle { grid-template-columns: 45px 1fr; }
   .closing__frame { min-height: 610px; }
   .closing__frame img { object-position: 44% center; }
+  .contact__form { grid-template-columns: 1fr; margin-top: 58px; }
+  .contact__form-message, .contact__form button { grid-column: auto; }
   .contact__top { grid-template-columns: 1fr; }
   .contact__aside { margin-top: 45px; }
   .footer__universes { grid-template-columns: 1fr; gap: 0; }
