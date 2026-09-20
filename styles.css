@@ -179,6 +179,8 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .footer__links { display: flex; flex-wrap: wrap; gap: 20px; font-size: 8px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; }
 .footer__mark { text-align: center; font: 400 25px/1 var(--serif); }
 .footer small { justify-self: end; font-size: 8px; letter-spacing: .15em; text-transform: uppercase; color: rgba(255, 255, 255, .5); }
+.footer small a { border-bottom: 1px solid rgba(255, 255, 255, .35); transition: color .2s ease, border-color .2s ease; }
+.footer small a:hover { color: var(--paper-soft); border-color: currentColor; }
 
 .reveal { opacity: 1; transform: none; }
 .reveal.in { animation: reveal-in .9s cubic-bezier(.2, .7, .2, 1) both; }
