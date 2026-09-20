@@ -20,7 +20,7 @@ window.SITE_CONFIG = Object.freeze({
           id: "sachetto", number: "01", name: "Sachetto", displayName: "SACHETTO", category: "Bags & accessories",
           description: "Contemporary bags conceived as design objects: precise forms, carefully selected materials and a deeply personal identity.",
           cta: "Discover the collections", url: "https://www.sachetto.store/",
-          image: "/generated-assets/alena-studio-bag-editorial.webp", imageWidth: 1024, imageHeight: 1536,
+          image: "/generated-assets/sachetto-bag-editorial.webp", imageWidth: 1024, imageHeight: 1536,
           alt: "Contemporary burgundy leather bag by Sachetto"
         }),
         Object.freeze({
@@ -47,7 +47,7 @@ window.SITE_CONFIG = Object.freeze({
           id: "sachetto", number: "01", name: "Sachetto", displayName: "SACHETTO", category: "Bolsos y accesorios",
           description: "Bolsos contemporáneos concebidos como objetos de diseño: formas precisas, materiales seleccionados y una identidad profundamente personal.",
           cta: "Descubrir las colecciones", url: "https://www.sachetto.store/",
-          image: "/generated-assets/alena-studio-bag-editorial.webp", imageWidth: 1024, imageHeight: 1536,
+          image: "/generated-assets/sachetto-bag-editorial.webp", imageWidth: 1024, imageHeight: 1536,
           alt: "Bolso contemporáneo de cuero color burdeos de Sachetto"
         }),
         Object.freeze({
